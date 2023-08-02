@@ -601,7 +601,32 @@
             </li>
           </ul>
         </div>
-      </div>
+      
+
+  <!-- Subscribe Section -->
+
+  <form class="subscribe">
+    <label class="subscribe-label" for="subscribe-email">
+      Subscribe to the newsletter</label
+    >
+    <div class="subscribe-area">
+      <input
+        class="subscribe-input"
+        type="email"
+        name="email"
+        id="subscribe-email"
+        placeholder="E-mail"
+        required
+      />
+      <button class="subscribe-btn" type="submit">
+        Subscribe
+        <svg height="24px" width="24px">
+          <use href="./images/icons.svg/symbol-defs.svg#icon-send"></use>
+        </svg>
+      </button>
+    </div>
+  </form>
+</div>
     </footer>
     <!--Modal-->
     <div class="backdrop is-hidden "data-modal>
@@ -617,6 +642,71 @@
 
 </button>
 
+   <!-- Form Section -->
+
+   <form
+   class="request_our_service_form"
+   name="request_our_service_form"
+ >
+   <span class="row intro-text"
+     >Leave your information and we'll call you back</span
+   >
+
+   <label class="row input-area">
+     <span class="label">Name</span>
+     <input class="input-box" type="text" name="name" required />
+     <svg height="18px" width="18px" class="person-icon input-icon">
+       <use href="./images/icons.svg/symbol-defs.svg#icon-person"></use>
+     </svg>
+   </label>
+
+   <label class="row input-area">
+     <span class="label">Telephone</span>
+     <input class="input-box" type="tel" name="telephone" required />
+     <svg height="18px" width="18px" class="phone-icon input-icon">
+       <use href="./images/icons.svg/symbol-defs.svg#icon-phone"></use>
+     </svg>
+   </label>
+
+   <label class="row input-area">
+     <span class="label">E-mail</span>
+     <input class="input-box" type="email" name="email" required />
+     <svg height="18px" width="18px" class="envelope-icon input-icon">
+       <use href="./images/icons.svg/symbol-defs.svg#icon-email"></use>
+     </svg>
+   </label>
+
+   <label class="row comments-area">
+     <span class="label">Comments</span>
+     <textarea
+       class="comments-box"
+       name="comments"
+       rows="5"
+       placeholder="Enter the text"
+     ></textarea>
+   </label>
+
+   <label class="checkbox-area">
+     <input
+       type="checkbox"
+       class="checkbox"
+       name="agreement"
+       value="agree"
+       required
+     />
+     <svg class="icon-check" width="16" height="15">
+       <use href="./images/icons.svg/symbol-defs.svg#icon-check"></use>
+     </svg>
+     <span class="agree-text">
+       I agree with the letter and accept the
+       <a class="terms-link" href="./terms.html"
+         >Terms and Conditions</a
+       >
+     </span>
+   </label>
+
+   <button class="row send-button" type="submit">Send</button>
+ </form>
 
 </div>
 
